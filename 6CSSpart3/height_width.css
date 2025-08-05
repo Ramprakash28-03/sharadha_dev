@@ -5,7 +5,7 @@ div{
 }
 div:hover{
     background-color: rgb(255, 132, 0);
-    transform:rotate(-5deg) ;
+    /* transform:rotate(-5deg) ; */
 }
 
 /* border short hand 
