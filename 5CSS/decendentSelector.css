@@ -1,0 +1,13 @@
+/* decedent selector ka mtlb hota hai kisi ek selector ke andar dusara selector dalna wo cheez hum space ke madad se karte hai  */
+p a{
+    background-color: pink;
+}
+/* is ka use hum index me kiya hai  */
+/* agar hum chahe to class me bhi decendent selector use karsakte hai  
+is me multiple level pe kar sakte hai*/
+
+/* is type me ek or combinator hota hai jise hum child combinator bolte hai jo ki apne just andar wale element ko select karta hai 
+or usko hum greater than wale element se show karte hai eg > */
+p>a {
+    color: #dc037e;
+}

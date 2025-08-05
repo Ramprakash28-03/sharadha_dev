@@ -1,0 +1,16 @@
+/* There are various types of psedo element in css but we majorily use 
+3 types of psedo elements
+1. first letter
+2.first word or first line 
+3. selection */
+
+h1::first-letter{
+    color: pink;
+}
+p::first-line{
+    color: purple;
+}
+
+div::selection{
+    color: blue;
+}

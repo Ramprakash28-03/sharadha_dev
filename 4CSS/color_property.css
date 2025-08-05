@@ -1,0 +1,15 @@
+/* Color proterty in foreground */
+h1{
+    color: blue;
+    /* color proterty in background */
+    background-color: orange;
+}
+
+p{
+    color: green;
+    background-color:black ;
+}
+button{
+    color: brown;
+    background-color: aqua;
+}

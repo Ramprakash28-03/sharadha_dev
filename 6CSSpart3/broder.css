@@ -1,0 +1,5 @@
+/* it is use to set element border */
+div{
+    border-style: solid;
+    border-width: 10px;
+}

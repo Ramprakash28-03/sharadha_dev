@@ -1,0 +1,5 @@
+/* psedo class wo hoti hai jo kisi specific condition ke true hone par work kare  */
+button:hover{
+    background-color: black;
+    color: blueviolet;
+}

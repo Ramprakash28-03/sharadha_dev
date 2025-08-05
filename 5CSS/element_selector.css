@@ -1,0 +1,15 @@
+/* element selector kisi particular element ko select karne ke liye hoti hai or kisi particular id ko select karne ke liye hoti hai
+for example */
+#name{
+    color:brown
+}
+h1{
+    color: pink;
+}
+h3{
+    color: magenta;
+}
+/* hum ek sath multiple element ko select kar sakte hai sirf cauma kar ke  */
+p,h1{
+    background-color: black;
+}
