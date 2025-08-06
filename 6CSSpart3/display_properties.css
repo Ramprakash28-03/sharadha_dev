@@ -1,3 +1,19 @@
 h2{
     display: inline;
 }
+span{
+    display: block;
+}
+
+/* there is one special property in display that is inline block that carries the property of block element but stable in the inline */
+div{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    margin: 10px;
+    display: inline-block;
+}
+/* there is one special property in display that is none */
+#forth{
+    display: none;
+}
