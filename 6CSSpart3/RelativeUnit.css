@@ -1,14 +1,16 @@
-/* Relative units are those units which works according to their parents for example em, percentage(%) etc */
+/* Relative units are those units which works according to their parents units or their previous fixed for example em, percentage(%) etc */
 div{
     margin:1%;
-    padding : 1%
+    padding : 1%;
 }
 /* it shows the 10 percent size according to their parents */
-/* the second this comes that is em which is used for the relative text */
+/* the second this comes that is em which is used for the relative text according 
+to their pervious fixed size and it also shows the snow falling effect */
 
 h1{
     font-size: 10px;
 }
+/* rem this works according to their root element size */
 h2{
-    font-size: em;
+    font-size: 1rem;
 }

@@ -1,0 +1,46 @@
+
+div{
+    width:100px;
+    height: 100px;
+    transition: 2s ;
+    text-align: center;
+    margin: 10px ;
+    margin: auto ;
+    /* transition : margin-top 2s; */
+}
+
+
+div:nth-of-type(3n+1){
+
+    background-color:rgb(222, 232, 206);
+}
+div:nth-of-type(3n+2){
+    background-color: rgb(187, 102, 83);
+}
+div:nth-of-type(3n){
+    background-color: rgb(240, 139, 81);
+}
+#div1{
+    margin-top: 0px;
+    transition: margin-top 2s ease;
+}
+#div1:hover{
+    background-color: green;
+    margin-top: 400px;
+    border-radius: 50%;
+}
+#div2:hover{
+    transform: rotate(180deg);
+}
+#div3:hover{
+    /* if we use the two values in scale 1st denotes l-r and second denotes t-d  */
+    transform: scalex(.25);
+    /* there is two types of more scale that is scalex and scaley  */
+}
+#div4:hover{
+    /* translate in transform means that we can move the box towards the direction  */
+    transform: translate(100px,100px);
+}
+#div5:hover{
+    transform: skew(-30deg);
+}
