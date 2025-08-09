@@ -22,11 +22,11 @@ div:nth-of-type(3n){
 }
 #div1{
     margin-top: 0px;
-    transition: margin-top 2s ease;
+    transition: margin-top 2s ease-in 2s;
 }
 #div1:hover{
     background-color: green;
-    margin-top: 400px;
+    margin-top: 400px ;
     border-radius: 50%;
 }
 #div2:hover{

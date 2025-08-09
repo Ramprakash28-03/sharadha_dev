@@ -1,0 +1,87 @@
+/* div{
+    height : 210px;
+    width : 210px;
+    border: solid;
+    margin: auto;
+}
+#div1{
+    height : 200px;
+    width : 200px;
+    border: solid;
+    border-radius: 50%;
+    background-color: rgb(255, 170, 17);
+}
+#div2{
+    height: 20px;
+    width: 20px;
+    margin: 35px;
+     margin-top: 50px;
+    
+    background-color: #000;
+    border-radius: 50%;
+}
+#div3{
+    height: 20px;
+    width: 20px;
+    margin-left: 124px;
+    margin-top: -60px ;
+    
+    background-color: #000;
+    border-radius: 50%;
+
+}
+#div4{
+    height: 30px;
+    width: 80px;
+    background-color: brown;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin-top: 50px;
+
+    in sab ko hum positoin property se easily kar sakte hai
+
+} */
+
+div{
+    width: 450px;
+    border: solid;
+    height: 450px;
+    margin: 0px;
+}
+#div1{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    border-radius: 50%;
+    top:35px;
+    left:35px;
+    background-color: rgb(255, 165, 17);
+}
+#div2{
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    top:100px;
+    left:275px;
+    background-color: black;
+    border-radius: 50%;
+}
+#div3{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:100px;
+    left: 75px;
+    background-color: black;
+    border-radius: 50%;
+}
+#div4{
+    background-color: brown;
+    height: 75px;
+    width: 150px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    top: 250px;
+    left: 125px;
+}
