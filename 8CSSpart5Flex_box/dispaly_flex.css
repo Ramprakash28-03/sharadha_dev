@@ -1,0 +1,23 @@
+#div1{
+    height: 300px;
+    width: 70%;
+    background-color: grey;
+    /* opacity: 50%; */
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    /* align-item base line me sara content same baseline me hoga */
+    align-content: flex-start;
+    /* align-self more important of prior than align-content se   */
+    /* justify-content: center;  hote to bhaut prakar ke hai par hum 
+    majorily 6 types ke use karte hai*/
+    /* justify-content:space-around; */
+    margin: auto;
+    flex-wrap: wrap;
+    /* flex-wrap element ki height width property preseve karne me help karta hai ; */
+    /* space humesa justify content control karega */
+    /* flex direction are four types 
+    row and row-reverse,
+    column and column reverse */
+}
+

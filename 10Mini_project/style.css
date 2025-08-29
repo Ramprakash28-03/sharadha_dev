@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: borel;
+    background-size: cover;
+}
+.btn_one{
+    font-size: 30px;
+    position: absolute;
+    left: 16px;
+    line-height: 100px;
+}
+
+.main_box{
+    background: url(photo.jpg);
+    height: 100vh;
+}
+label{
+    size: 20px;
+}
+#check{
+    display: none;
+}
+.menu{
+    text-decoration: none;
+}
+.sidebar_menu{
+    position:fixed;
+    left: -350px;
+}
+
+

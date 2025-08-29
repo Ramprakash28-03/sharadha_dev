@@ -1,0 +1,6 @@
+div{
+    flex-basis: 400px;
+    flex-grow: 2;
+    /* ye ratio me kaam karta hai 
+    is me max width and minwidth bhi use kar sakte hai */
+}

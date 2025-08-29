@@ -1,0 +1,88 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Full Curve Rainbow Band</title>
+<style>
+body {
+  background: #87ceeb; /* sky blue */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.rainbow {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: conic-gradient(
+    red 0deg 51.43deg,
+    orange 51.43deg 102.86deg,
+    yellow 102.86deg 154.29deg,
+    green 154.29deg 205.72deg,
+    blue 205.72deg 257.15deg,
+    indigo 257.15deg 308.58deg,
+    violet 308.58deg 360deg
+  );
+  /* Create hole inside */
+  -webkit-mask: radial-gradient(circle, black 70%, transparent 72%);
+  mask: radial-gradient(circle, black 70%, transparent 72%);
+}
+</style>
+</head>
+<body>
+
+<div class="rainbow"></div>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Half Circle Rainbow</title>
+<style>
+body {
+  background: #000; /* background color for contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.rainbow {
+  width: 400px;
+  height: 200px;
+  background: radial-gradient(circle at bottom,
+    red 0%,
+    red 10%,
+    orange 10%,
+    orange 20%,
+    yellow 20%,
+    yellow 30%,
+    green 30%,
+    green 40%,
+    blue 40%,
+    blue 50%,
+    indigo 50%,
+    indigo 60%,
+    violet 60%,
+    violet 65%,
+  );
+  border-top-left-radius: 400px;
+  border-top-right-radius: 400px;
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="rainbow"></div>
+
+</body>
+</html>
+

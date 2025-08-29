@@ -1,0 +1,25 @@
+#playGround{
+    background-color: yellow;
+    height: 300px;
+    width: 400px;
+    display: grid;
+    /* grid-template-columns: 10px 30px auto auto auto;
+    grid-template-rows: auto auto auto ; */
+    /* auto ka mtlb if text available na to equalliy divide kar leta hai  */
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    /* row-gap: 10px;
+    column-gap: 20px; */
+    grid-gap:5px ;
+    /* kisi particular block ko extra row or column provide karne ke liye grid-column-start:  and grid column end  use kar sate hai; */
+    /* justify-items:  is me bhi work kartha hai;
+    same alignment ke liye hum place self use kar sakte hai */
+}
+.sml{
+    
+    background-color: green;
+    /* height: 100px;
+    width:100px; */
+    /* margin: 10px; */
+    border: solid;
+}
